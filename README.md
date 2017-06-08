@@ -85,6 +85,7 @@ def process_image(image):
 
 # And here is a link to the same pipeline applied on a video:
 https://youtu.be/McXvBH9PNhE
+
 https://youtu.be/zzNTC2LT3dU
 
 
