@@ -83,7 +83,9 @@ def process_image(image):
 
 ![output_solidyellowcurve2](https://user-images.githubusercontent.com/26694585/26914084-c733b3e4-4c3c-11e7-99f0-0846e8b32ac1.jpg)
 
-# And here is the same pipeline applied on a video:
+# And here is a link to the same pipeline applied on a video:
+https://youtu.be/McXvBH9PNhE
+https://youtu.be/zzNTC2LT3dU
 
 
 
