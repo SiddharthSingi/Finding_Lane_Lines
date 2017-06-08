@@ -74,6 +74,19 @@ def process_image(image):
     return result
     
 ```
+# These are a few outputs of the test images:
+![output_solidwhitecurve](https://user-images.githubusercontent.com/26694585/26913395-33512aac-4c38-11e7-9e78-e07ee3e8f90a.jpg)
+
+![output_solidwhiteright](https://user-images.githubusercontent.com/26694585/26914079-c2cfa2cc-4c3c-11e7-8638-d26ffef4598e.jpg)
+
+![output_solidyellowcurve](https://user-images.githubusercontent.com/26694585/26914081-c536e624-4c3c-11e7-9544-b14049d490f1.jpg)
+
+![output_solidyellowcurve2](https://user-images.githubusercontent.com/26694585/26914084-c733b3e4-4c3c-11e7-99f0-0846e8b32ac1.jpg)
+
+# And here is the same pipeline applied on a video:
+
+
+
 
 
 
