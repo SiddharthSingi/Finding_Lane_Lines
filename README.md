@@ -75,13 +75,13 @@ def process_image(image):
     
 ```
 ## Test image outputs:
-![output_solidwhitecurve](https://user-images.githubusercontent.com/26694585/26913395-33512aac-4c38-11e7-9e78-e07ee3e8f90a.jpg)
+![output_solidwhiteright](https://user-images.githubusercontent.com/26694585/26974451-1513be72-4d39-11e7-8824-284cdece24c3.jpg)
 
-![output_solidwhiteright](https://user-images.githubusercontent.com/26694585/26914079-c2cfa2cc-4c3c-11e7-8638-d26ffef4598e.jpg)
+![output_solidyellowcurve](https://user-images.githubusercontent.com/26694585/26974455-1b83141a-4d39-11e7-9744-7a50f4119a96.jpg)
 
-![output_solidyellowcurve](https://user-images.githubusercontent.com/26694585/26914081-c536e624-4c3c-11e7-9544-b14049d490f1.jpg)
+![output_solidyellowcurve2](https://user-images.githubusercontent.com/26694585/26974461-20c551a4-4d39-11e7-8124-8aca7a05a533.jpg)
 
-![output_solidyellowcurve2](https://user-images.githubusercontent.com/26694585/26914084-c733b3e4-4c3c-11e7-99f0-0846e8b32ac1.jpg)
+![output_whitecarlaneswitch](https://user-images.githubusercontent.com/26694585/26974466-27de7a1a-4d39-11e7-8b68-13bcc590d8bd.jpg)
 
 ## Identifying the lanes on a video stream:
 https://youtu.be/McXvBH9PNhE
