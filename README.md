@@ -1,4 +1,4 @@
-## Finding Lane Lines
+# Finding Lane Lines
 ![output_solidwhitecurve](https://cloud.githubusercontent.com/assets/26694585/26761841/7dbb00e0-4954-11e7-8fb4-cf0b63a7bb5a.jpg)
 
 
@@ -12,7 +12,7 @@ In this project you will detect lane lines in images using Python and OpenCV. Op
 * _test_output folder_
 * white.mp4
 
-# Pipeline Description
+## Pipeline Description
 I have used a very simple pipleline to identify the lanes in my video. The modules used in the pipeline are mainly  matplotlib, numpy and cv2. These are the steps taken in the pipeline:
 1. Convert to  grayscale:
 1. Apply Gaussian Blur.
@@ -21,7 +21,7 @@ I have used a very simple pipleline to identify the lanes in my video. The modul
 1. Find Lines using Hough transform
 1. Display the final image.
 
-# The main part of the code used for this is:
+## Code
 ```
 def grayscale(img):
     return cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
@@ -74,7 +74,7 @@ def process_image(image):
     return result
     
 ```
-# These are a few outputs of the test images:
+## Test image outputs:
 ![output_solidwhitecurve](https://user-images.githubusercontent.com/26694585/26913395-33512aac-4c38-11e7-9e78-e07ee3e8f90a.jpg)
 
 ![output_solidwhiteright](https://user-images.githubusercontent.com/26694585/26914079-c2cfa2cc-4c3c-11e7-8638-d26ffef4598e.jpg)
@@ -83,13 +83,14 @@ def process_image(image):
 
 ![output_solidyellowcurve2](https://user-images.githubusercontent.com/26694585/26914084-c733b3e4-4c3c-11e7-99f0-0846e8b32ac1.jpg)
 
-# And here is a link to the same pipeline applied on a video:
+## Identifying the lanes on a video stream:
 https://youtu.be/McXvBH9PNhE
 
 https://youtu.be/zzNTC2LT3dU
 
+## Shortcomings of this method:
 
-
-
+* One of the major problems with this method is finding lane lines on curved roads. Hough transform is made specifically to identify straight lines on an image so using HoughTransformsP on a curved road will not result in the best output.
+* Lines generated are not at all reliable, since the pipeline might include lines that are not on the road at all but fall inside the region of interest. 
 
 
